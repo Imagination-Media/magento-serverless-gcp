@@ -1,0 +1,38 @@
+{
+    "name": "imdigital/magento-serverless-gcp",
+    "description": "Add Google Cloud functions to the serverless framework",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Igor Ludgero Miura",
+            "email": "igor@imdigital.com",
+            "homepage": "https://www.imdigital.com/",
+            "role": "Senior Software Engineer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": ">=8.1",
+        "google/cloud-functions": "^1.0",
+        "grpc/grpc": "^1.38",
+        "imdigital/magento-serverless": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ImDigital\\ServerlessGcp\\": ""
+        }
+    },
+    "archive": {
+        "exclude": ["screenshots", ".gitignore"]
+    }
+}
