@@ -70,7 +70,10 @@ The ***region_id*** is the region where the cloud function is hosted. The ***ser
 
 These are the permissions you must add to your service account in order to be able to execute cloud functions:
 
+<br/>
+
 <p align="center">
 <img src="https://github.com/Imagination-Media/magento-serverless-gcp/blob/master/screenshots/iam-permissions.png" alt="Service Account permissions" />
+<br/>
 <i>Service account permissions</i>
 </p>
