@@ -54,7 +54,7 @@ The cloud config field expects a (encrypted) JSON on this format:
         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
         "client_email": "my-service-account-email",
         "client_id": "my-client-id",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/magento-demo-serverless%40magento-2-demo-366018.iam.gserviceaccount.com",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-cert-url",
         "private_key": "my-private-key",
         "private_key_id": "my-private-key-id",
         "project_id": "my-gcp-project-id",
