@@ -17,12 +17,12 @@
             "role": "Senior Software Engineer"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "require": {
         "php": ">=8.1",
         "google/cloud-functions": "^1.0",
         "grpc/grpc": "^1.38",
-        "imdigital/magento-serverless": "^1.0"
+        "imdigital/magento-serverless": "^1.0.3"
     },
     "autoload": {
         "files": [
